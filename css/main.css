@@ -25,6 +25,14 @@ body {
   height: 100vh;
 }
 
+#contato {
+  text-align: center;
+  background: url("/imagens/pexels-mario-pais-cie-4172523.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .photo {
   border-radius: 50%;
   width: 18%;
@@ -99,5 +107,13 @@ footer {
   justify-content: space-around;
 }
 
-.headerDefault {
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+footer > a > img {
+  margin: 10px;
 }
